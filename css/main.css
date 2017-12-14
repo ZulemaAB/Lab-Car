@@ -1,0 +1,88 @@
+/* Los estilos de tu proyecto */
+body {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 40px;
+}
+header{
+  position: fixed;
+}
+
+/*------------ primera seccion -------*/
+.image-fond{
+  background-image: url(../assets/images/taxi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom center;
+  height: 850px;
+}
+.box{
+  background-color: #F7B617;
+  height: 400px;
+  width: 500px;
+  top: 200px;
+  font-size: 20px;
+  float: right;
+  padding: 20px;
+  color: #fff;
+}
+.b1{
+  background: #fff;
+  color:#000;
+  border: none;
+  font-weight: bolder;
+}
+.line{
+  width: 10px;
+  border: 1px solid #fff;
+}
+
+/*-------- segunda seccion----------- */
+.app{
+  border: 1px solid #fff;
+  width: 80%;
+  height: 700px;
+  padding: 20px;
+
+
+}
+.info-app{
+  background-color: #F7B617;
+
+}
+.cellphone{
+  display: inline-block;
+
+}
+ .info{
+  display: inline-block;
+  text-align: justify;
+
+}
+/* <!-------------------------- section-3 ----------------> */
+
+.conduce{
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.conduce-info{
+  background:rgba(0,0,0, 0.3);
+  color: #fff;
+  width: 40%;
+  padding: 20px;
+  height: 600px;
+  text-align: justify;
+}
+.b2{
+  background: #F7B617;
+  outline: none;
+}
+/*------------- Cuarta sección ---------*/
+.taxes{
+  background: #F7B617;
+  padding: 20px;
+
+}
