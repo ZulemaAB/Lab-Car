@@ -15,16 +15,27 @@ header{
   background-position:bottom center;
   height: 850px;
 }
-.box{
+ .box-desktop {
   background-color: #F7B617;
   height: 400px;
-  width: 500px;
+  /* width: 500px; */
   top: 200px;
   font-size: 20px;
   float: right;
   padding: 20px;
   color: #fff;
+
 }
+.box-mobile{
+  background-color: #F7B617;
+  height: 400px;
+  /* width: 500px; */
+  top:150px;
+  font-size: 20px;
+  float: right;
+  padding: 20px;
+  color: #fff;
+} */
 .b1{
   background: #fff;
   color:#000;
@@ -43,7 +54,6 @@ header{
   height: 700px;
   padding: 20px;
 
-
 }
 .info-app{
   background-color: #F7B617;
@@ -51,6 +61,7 @@ header{
 }
 .cellphone{
   display: inline-block;
+  border: 1px solid #fff;
 
 }
  .info{
@@ -85,4 +96,29 @@ header{
   background: #F7B617;
   padding: 20px;
 
+}
+/*--------- Media jquery----- */
+  @media(min-width: 768px){
+  .box-desktop{
+    display: none;
+  }
+  .box-mobile{
+    display:block;
+  }
+}
+@media (max-width: 768px){
+.box-desktop{
+  display: none;
+}
+.box-mobile{
+  display:block;
+}
+}
+@media (min-width: 992px) {
+  .box-desktop{
+    display: block;
+  }
+  .box-mobile{
+    display:none;
+  }
 }
