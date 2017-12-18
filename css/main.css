@@ -1,102 +1,247 @@
-/* Los estilos de tu proyecto */
+/* Los estilos del proyecto */
+
 body {
-  font-family: 'Raleway', sans-serif;
-  padding-top: 40px;
+    font-family: 'Raleway', sans-serif;
 }
+
 header{
-  position: fixed;
+    position: fixed;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 
-/*------------ primera seccion -------*/
+.logo{
+    height: 35px;
+    padding-left: 30px;
+    margin:  30px;
+}
+
+.navbar-nav {
+    margin: 30px;
+}
+
+.icon-menu {
+    float: left;
+    margin-left: 30px;
+}
+
+/*----------- section-1 -------*/
+
 .image-fond{
-  background-image: url(../assets/images/taxi.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:bottom center;
-  height: 850px;
+    background-image: url(../assets/images/taxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom center;
+    height: 870px;
 }
+
+/*--- model-desktop--- */
+
  .box-desktop {
-  background-color: #F7B617;
-  height: 400px;
-  /* width: 500px; */
-  top: 200px;
-  font-size: 20px;
-  float: right;
-  padding: 20px;
-  color: #fff;
-
+    background-color: #F7B617;
+    height:450px;
+    margin-top: 200px;
+    font-size: 25px;
+    float: right;
+    padding: 30px 0px 0px 50px ;
+    color: #fff
 }
+
+/*--- model-mobile--- */
+
 .box-mobile{
-  background-color: #F7B617;
-  height: 400px;
-  /* width: 500px; */
-  top:150px;
-  font-size: 20px;
-  float: right;
-  padding: 20px;
-  color: #fff;
-} */
-.b1{
-  background: #fff;
-  color:#000;
-  border: none;
-  font-weight: bolder;
+   background-color: #F7B617;
+   color: #fff;
+   height: 400px;
+   float: right;
+   padding : 50px;
+   top:300px;
 }
+
+/*estilos a nuestro boton de registro */
+
+.B1{
+    color: #000;
+    background-color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* linea divisoria de entre botones */
+.lines{
+    margin:20px;
+    padding: 5px;
+}
+
 .line{
-  width: 10px;
-  border: 1px solid #fff;
+   display: inline-block;
+   width: 20%;
+   height: 3px;
+  background-color: #fff;
+   margin: 10px;
 }
 
-/*-------- segunda seccion----------- */
-.app{
-  border: 1px solid #fff;
-  width: 80%;
-  height: 700px;
-  padding: 20px;
-
+ .line2{
+   display: inline-block;
+   width: 20%;
+   height: 3px;
+   background-color: #fff;
+   margin: 10px;
 }
+
+/*-------- section-2-------------------- */
 .info-app{
   background-color: #F7B617;
-
-}
-.cellphone{
-  display: inline-block;
-  border: 1px solid #fff;
-
-}
- .info{
-  display: inline-block;
-  text-align: justify;
-
-}
-/* <!-------------------------- section-3 ----------------> */
-
-.conduce{
-  background-image: url(../assets/images/conduce.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.conduce-info{
-  background:rgba(0,0,0, 0.3);
   color: #fff;
-  width: 40%;
-  padding: 20px;
-  height: 600px;
-  text-align: justify;
+  padding: 30px 50px 20px 0px;
+}
+
+/*--- model-desktop--- */
+.app-desktop{
+   background-color: #F7B617;
+}
+
+.app {
+   height: 450px;
+   padding: 10px;
+   border: 2px solid #fff;
+   margin-right:200px;
+}
+
+ .info {
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+/*--- model-mobile--- */
+.app-mobile {
+   background-color: #F7B617;
+   padding:  50px 50px 0px 50px;
+}
+
+.mobile {
+   height: 500px;
+   padding: 30px 10px;
+   border: 2px solid #fff;
+   width: 100%;
+}
+
+.cellphone2 {
+  padding-left: 50px;
+}
+.app-text {
+  display: inline-block;
+
+}
+
+/* <!------------------- section-3 ----------------> */
+.conduce{
+   background-image: url(../assets/images/conduce.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 600px;
+   background-position: center;
+
+}
+
+.info-c{
+   background:rgba(0,0,0, 0.5);
+   color: #fff;
+   width: 35%;
+   height: 600px;
+   float: right;
+
+
+
+}
+.conduce-info{
+   padding: 30px;
+   margin-top: 100px;
+   font-size: 20px;
+   text-align: justify;
+   /* border: 1px solid white; */
 }
 .b2{
-  background: #F7B617;
-  outline: none;
+   background: #F7B617;
+   border: none;
+   color: #fff;
+   font-weight: bolder;
+   font-size: 20px;
 }
+
+
+
+
+
 /*------------- Cuarta sección ---------*/
 .taxes{
   background: #F7B617;
-  padding: 20px;
+   /* border: 2px solid black; */
+   height: 60vh;
+   width: 100%
 
 }
+.taxes-desktop{
+  padding: 30px 0px 0px 60px;
+  display: inline-block;
+  width:55%;
+  /* border: 2px solid red; */
+  color: #fff;
+
+
+}
+#f-1{
+  background: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+
+}
+.info-t{
+  display: inline;
+  font-size: 20px;
+}
+.map{
+   padding: 30px;
+   /* border: 2px solid green; */
+   width: 35%;
+}
+.map-1{
+    border: 2px solid #fff;
+    padding: 5px;
+}
+ /*--------- footer--------------- */
+
+.p-pag{
+  background-color: #2B2B2B;
+  color: #fff;
+
+}
+.list-1 li  a{
+  color: #fff;
+  font-size: 20px;
+}
+.logo-f{
+  padding-top: 10px;
+}
+.list-1 li  {
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*--------- Media jquery----- */
   @media(min-width: 768px){
   .box-desktop{
@@ -104,15 +249,38 @@ header{
   }
   .box-mobile{
     display:block;
+
   }
+  .app-desktop{
+    display: none;
+  }
+  .app-mobile{
+  display: block;
 }
-@media (max-width: 768px){
+  .info-c {
+  width: 100%
+
+    }
+}
+
+ @media (max-width: 768px){
 .box-desktop{
   display: none;
 }
 .box-mobile{
   display:block;
 }
+.app-desktop{
+  display: none;
+}
+.app-mobile{
+display: block;
+}
+.info-c {
+width: 40%
+
+  }
+
 }
 @media (min-width: 992px) {
   .box-desktop{
@@ -121,4 +289,15 @@ header{
   .box-mobile{
     display:none;
   }
+
+  .app-desktop{
+    display: block;
+  }
+  .app-mobile{
+  display: none;
+  }
+  .info-c {
+  width: 40%
+
+    }
 }
