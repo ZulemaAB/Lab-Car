@@ -260,7 +260,7 @@ header{
   .info-c {
   width: 100%
 
-    }
+}
 }
 
  @media (max-width: 768px){
@@ -274,12 +274,15 @@ header{
   display: none;
 }
 .app-mobile{
-display: block;
+  display: block;
 }
 .info-c {
-width: 40%
+  width: 40%
 
-  }
+}
+.conduce-info{
+  display: block;
+}
 
 }
 @media (min-width: 992px) {
