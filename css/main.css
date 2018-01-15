@@ -172,47 +172,35 @@ header{
    font-size: 20px;
 }
 
-
-
-
-
 /*------------- Cuarta sección ---------*/
 .taxes{
   background: #F7B617;
-   /* border: 2px solid black; */
-   height: 60vh;
-   width: 100%
-
-}
-.taxes-desktop{
-  padding: 30px 0px 0px 60px;
-  display: inline-block;
-  width:55%;
-  /* border: 2px solid red; */
-  color: #fff;
-
-
-}
-#f-1{
-  background: none;
-  border-radius: 5px;
-  display: inline-block;
-  font-size: 15px;
-  color: #fff;
-
-}
-.info-t{
-  display: inline;
+  padding: 10px;
+  color:#fff;
   font-size: 20px;
+
 }
-.map{
-   padding: 30px;
-   /* border: 2px solid green; */
-   width: 35%;
+.data {
+  padding-top: 20px;
 }
-.map-1{
-    border: 2px solid #fff;
-    padding: 5px;
+#f-1 {
+  background-color: #F7B617;
+  border: 2px solid white;
+}
+
+.padding-left {
+  padding-left: 1px;
+}
+.btn-app {
+  padding: 10% 0 20% 30%;
+  font-weight:bold;
+  font-weight: bold;
+}
+
+.map {
+  border: 1px solid #fff;
+  padding:  20px;
+  width: 100%;
 }
  /*--------- footer--------------- */
 
@@ -221,27 +209,90 @@ header{
   color: #fff;
 
 }
-.list-1 li  a{
-  color: #fff;
-  font-size: 20px;
-}
-.logo-f{
+.logo-f {
   padding-top: 10px;
 }
-.list-1 li  {
+
+.list-1 li {
   list-style: none;
+
+}
+.list-1 li a {
+  color: #fff;
+  font-size: 20px;
+  line-height: 50px;
+}
+.icons {
+  color: #fff;
+  font-size: 20px;
+
+}
+/* Estilos  modal Inicio de Sesion*/
+.modalsesion {
+  background-color: #08AC9D;
+
+}
+#myModal img {
+  width: 100px;
+  background-color: #027FEB;
 }
 
+.form-sesion {
+  width: 400px;
+  padding: 30px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.btn-login {
+     background-color: #F7B617;;
+     border-radius: 5px;
 
+}
+.btn-register {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
 
+/* Estilos del modal Registrate*/
+.bg-colorModal2 {
+  background-color: #A9A9A9;
+}
 
+#username {
+  width: 282px;
+}
 
+#email {
+  margin-top: 1.5rem;
+}
+.modalRegister {
+  color:black;
+}
+ .btn-send {
+  background-color: #5BC0DE;
+  color: white;
+  margin-top: 1rem;
+  width: 100%;
+}
 
+/* Estilos del modal Conviertete en conductor*/
+.modal3 {
+  background-color: #A9A9A9;
+  color: black;
 
+}
 
+.send-mail {
+  color:#989497;
 
+}
 
-
+.mail-socio {
+  color:#5E8598;
+}
 /*--------- Media jquery----- */
   @media(min-width: 768px){
   .box-desktop{
@@ -256,10 +307,6 @@ header{
   }
   .app-mobile{
   display: block;
-}
-  .info-c {
-  width: 100%
-
 }
 }
 
@@ -277,7 +324,7 @@ header{
   display: block;
 }
 .info-c {
-  width: 40%
+  width: 100%
 
 }
 .conduce-info{
@@ -302,5 +349,5 @@ header{
   .info-c {
   width: 40%
 
-    }
+  }
 }
