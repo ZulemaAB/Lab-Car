@@ -1,5 +1,5 @@
 # LABCAR
 
-El presente trabajo consiste en crear la pagina Lab<ar empleando uno de los  frameworks : BOOTSTRAP.
+LabCar es una aplicación de servicio de taxi ,mediante el cual pueden registrarse nuevos usuarios y conductores.
 
 ![Con titulo](https://raw.githubusercontent.com/ZulemaAB/Lab-Car/master/assets/images/project.PNG)
