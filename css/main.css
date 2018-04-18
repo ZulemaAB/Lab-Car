@@ -238,12 +238,12 @@ header{
 }
 
 .form-sesion {
-  width: 400px;
+  width: 334px;
   padding: 30px;
   height: 300px;
   background-color: #fff;
   border-radius: 10px;
-  margin-left: 100px;
+  margin-left: 8px;
 }
 .btn-login {
      background-color: #F7B617;;
